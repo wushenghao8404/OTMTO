@@ -83,7 +83,7 @@ while infe < maxinfe
         % selection
         if inufit(i)<infit(i)
             inpop(i,:)=inupop(i,:);
-            inpop(i)=inufit(i);
+            infit(i)=inufit(i);
             if inufit(i)<ingby
                 ingby=inufit(i);
                 ingbx=inupop(i,:);
